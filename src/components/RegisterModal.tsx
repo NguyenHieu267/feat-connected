@@ -1,5 +1,5 @@
-import { useState } from 'react';
-import EyeIcon from '../assets/img/eye.svg';
+import { useState } from "react";
+import EyeIcon from "../assets/img/eye.svg";
 
 interface RegisterModalProps {
   isVisible: boolean;
@@ -7,10 +7,10 @@ interface RegisterModalProps {
   onSignInClick?: () => void;
 }
 
-const RegisterModal = ({ isVisible, onClose, onSignInClick }: RegisterModalProps) => {
-  const [walletAddress, setWalletAddress] = useState('');
-  const [password, setPassword] = useState('');
-  const [confirmPassword, setConfirmPassword] = useState('');
+const RegisterModal = ({ isVisible, onSignInClick }: RegisterModalProps) => {
+  const [walletAddress, setWalletAddress] = useState("");
+  const [password, setPassword] = useState("");
+  const [confirmPassword, setConfirmPassword] = useState("");
   const [showPassword, setShowPassword] = useState(false);
   const [showConfirmPassword, setShowConfirmPassword] = useState(false);
 
@@ -18,7 +18,7 @@ const RegisterModal = ({ isVisible, onClose, onSignInClick }: RegisterModalProps
 
   const handleRegister = () => {
     // Handle register logic here
-    console.log('Register:', { walletAddress, password, confirmPassword });
+    console.log("Register:", { walletAddress, password, confirmPassword });
   };
 
   return (
@@ -39,20 +39,20 @@ const RegisterModal = ({ isVisible, onClose, onSignInClick }: RegisterModalProps
                 placeholder="0x...."
                 value={walletAddress}
                 onChange={(e) => setWalletAddress(e.target.value)}
-                style={{ 
-                  background: 'transparent', 
-                  border: 'none', 
-                  outline: 'none',
-                  width: '100%',
-                  color: '#aba8a1',
-                  fontFamily: 'Centra No2 TRIAL',
-                  fontSize: '1.6rem'
+                style={{
+                  background: "transparent",
+                  border: "none",
+                  outline: "none",
+                  width: "100%",
+                  color: "#aba8a1",
+                  fontFamily: "Centra No2 TRIAL",
+                  fontSize: "1.6rem",
                 }}
               />
             </div>
           </div>
         </div>
-        
+
         {/* Password */}
         <div className="MENU">
           <div className="text1">
@@ -61,30 +61,30 @@ const RegisterModal = ({ isVisible, onClose, onSignInClick }: RegisterModalProps
           <div className="Input">
             <div className="Ex">
               <input
-                type={showPassword ? 'text' : 'password'}
+                type={showPassword ? "text" : "password"}
                 placeholder="**********"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
-                style={{ 
-                  background: 'transparent', 
-                  border: 'none', 
-                  outline: 'none',
-                  width: 'calc(100% - 30px)',
-                  color: '#aba8a1',
-                  fontFamily: 'Centra No2 TRIAL',
-                  fontSize: '1.6rem'
+                style={{
+                  background: "transparent",
+                  border: "none",
+                  outline: "none",
+                  width: "calc(100% - 30px)",
+                  color: "#aba8a1",
+                  fontFamily: "Centra No2 TRIAL",
+                  fontSize: "1.6rem",
                 }}
               />
-              <img 
-                src={EyeIcon} 
-                alt="eye" 
+              <img
+                src={EyeIcon}
+                alt="eye"
                 onClick={() => setShowPassword(!showPassword)}
-                style={{ cursor: 'pointer' }}
+                style={{ cursor: "pointer" }}
               />
             </div>
           </div>
         </div>
-        
+
         {/* Confirm Password */}
         <div className="MENU">
           <div className="text1">
@@ -93,37 +93,37 @@ const RegisterModal = ({ isVisible, onClose, onSignInClick }: RegisterModalProps
           <div className="Input">
             <div className="Ex">
               <input
-                type={showConfirmPassword ? 'text' : 'password'}
+                type={showConfirmPassword ? "text" : "password"}
                 placeholder="**********"
                 value={confirmPassword}
                 onChange={(e) => setConfirmPassword(e.target.value)}
-                style={{ 
-                  background: 'transparent', 
-                  border: 'none', 
-                  outline: 'none',
-                  width: 'calc(100% - 30px)',
-                  color: '#aba8a1',
-                  fontFamily: 'Centra No2 TRIAL',
-                  fontSize: '1.6rem'
+                style={{
+                  background: "transparent",
+                  border: "none",
+                  outline: "none",
+                  width: "calc(100% - 30px)",
+                  color: "#aba8a1",
+                  fontFamily: "Centra No2 TRIAL",
+                  fontSize: "1.6rem",
                 }}
               />
-              <img 
-                src={EyeIcon} 
-                alt="eye" 
+              <img
+                src={EyeIcon}
+                alt="eye"
                 onClick={() => setShowConfirmPassword(!showConfirmPassword)}
-                style={{ cursor: 'pointer' }}
+                style={{ cursor: "pointer" }}
               />
             </div>
           </div>
         </div>
-        
+
         {/* Button */}
         <div className="Button" onClick={handleRegister}>
           <div className="Sign">
             <span>Sign</span>
           </div>
         </div>
-        
+
         {/* Text */}
         <div className="Account Account-Register" onClick={onSignInClick}>
           <span>You already have an Account?</span>
