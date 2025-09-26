@@ -1,0 +1,484 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  font-family: Centra No2 TRIAL;
+}
+
+/*=============================TAG============================= */
+.Connect-Wallet {
+  padding-top: 177px;
+  padding-left: 100px;
+  width: 4644px;
+  height: 2134px;
+  border-radius: 2px;
+  border-width: 1px;
+  opacity: 1;
+  background: #444444;
+}
+.Tag1 {
+  width: 294px;
+  height: 74px;
+  opacity: 1;
+  gap: 10px;
+  background: #ffffff;
+  padding-top: 12px;
+  padding-left: 43px;
+}
+.Tag1 span {
+  font-family: Satoshi;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 4rem;
+  line-height: 50px;
+  letter-spacing: 0%;
+  text-align: center;
+  width: 208px;
+  height: 50px;
+  opacity: 1;
+  color: var(--Text-Utilities-Text-On-Overlay, #0c0c0d);
+}
+
+.Top {
+  display: flex;
+}
+.Connect-v1 {
+  margin-right: 48px;
+}
+/*===========================HEADER=========================== */
+.Connect-top {
+  margin-top: 49px;
+  width: 1440px;
+  height: 768px;
+  opacity: 1;
+  background: #f5f5f5;
+}
+.Header {
+  display: flex;
+  width: 1440px;
+  height: 74px;
+  justify-content: space-between;
+  opacity: 1;
+  padding-right: 24px;
+  padding-left: 24px;
+  background: #ffffff;
+}
+.ACW3 {
+  margin-top: 8px;
+  width: 60px;
+  height: 58px;
+  opacity: 1;
+  font-family: Satoshi;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 20px;
+  line-height: 57.6px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #00706e;
+}
+.frame4 {
+  width: 126px;
+  height: 74px;
+  opacity: 1;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+.frame4 .button {
+  width: 126px;
+  height: 38px;
+  border-radius: 100px;
+  opacity: 1;
+  border-bottom-width: 1px;
+  padding-top: 7px;
+  padding-right: 32px;
+  padding-bottom: 7px;
+  padding-left: 32px;
+  gap: 33px;
+  background: #009e99;
+}
+.frame4 .button span {
+  width: 62px;
+  height: 24px;
+  opacity: 1;
+  font-family: Centra No2 TRIAL;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 1.6rem;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #ffffff;
+}
+
+/*============================MAIN============================ */
+.main {
+  position: relative;
+  width: 1440px;
+  height: 634px;
+  padding-left: 24px;
+  padding-top: 16px;
+}
+.main img {
+  width: 1392px;
+  height: 602px;
+  border-radius: 8px;
+}
+.main .text {
+  position: absolute;
+  z-index: 1;
+  width: 610px;
+  height: 220px;
+  opacity: 1;
+  top: 147px;
+  left: 415px;
+}
+.text-top {
+  width: 610px;
+  height: 48px;
+  opacity: 1;
+  text-align: center;
+}
+.text-top span {
+  font-family: Satoshi;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 4rem;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #0d0d0d;
+}
+.text-mid {
+  width: 610px;
+  height: 60px;
+  opacity: 1;
+  margin-top: 24px;
+  text-align: center;
+}
+.text-mid span {
+  font-family: Satoshi;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 2.4rem;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #0d0d0d;
+}
+.main .button {
+  width: 216px;
+  height: 56px;
+  border-radius: 1000px;
+  opacity: 1;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  padding-top: 16px;
+  padding-right: 32px;
+  padding-bottom: 16px;
+  padding-left: 32px;
+  background: #ffffff;
+  margin-top: 32px;
+  margin-left: 197px;
+}
+.button-text {
+  width: 152px;
+  height: 24px;
+  opacity: 1;
+}
+.button span {
+  display: inline-block;
+  width: 152px;
+  height: 24px;
+  font-family: Centra No2 TRIAL;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #009e99;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*===========================FOOTER=========================== */
+.Social {
+  display: flex;
+  width: 1440px;
+  height: 60px;
+  justify-content: space-between;
+  opacity: 1;
+  padding-top: 8px;
+  padding-right: 24px;
+  padding-bottom: 8px;
+  padding-left: 24px;
+  background: #ffffff;
+}
+.Left {
+  display: flex;
+  width: 197px;
+  height: 44px;
+}
+.Left .Feature {
+  width: 102px;
+  height: 44px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-right: 24px;
+}
+.Feature span {
+  font-family: Satoshi;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 1.4rem;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+  color: #787575;
+}
+.Left .Contact {
+  width: 71px;
+  height: 44px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.Contact span {
+  font-family: Satoshi;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 1.4rem;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+  color: #787575;
+}
+.Right {
+  display: flex;
+  width: 164px;
+  height: 44px;
+}
+.Right .img1 img {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.Tag2 {
+  width: 294px;
+  height: 74px;
+  opacity: 1;
+  gap: 10px;
+  background: #ffffff;
+  padding-top: 12px;
+  padding-left: 39px;
+  margin-top: 69px;
+}
+.Tag2 span {
+  font-family: Satoshi;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 4rem;
+  line-height: 50px;
+  letter-spacing: 0%;
+  text-align: center;
+  width: 208px;
+  height: 50px;
+  opacity: 1;
+  color: var(--Text-Utilities-Text-On-Overlay, #0c0c0d);
+}
+
+/*==========================SIGN IN========================== */
+.Sign-in {
+  margin-right: 48px;
+}
+.Pop-up {
+  width: 500px;
+  height: 396px;
+  border-radius: 16px;
+  border-width: 1px;
+  opacity: 1;
+  padding: 24px;
+  background: #ffffff;
+}
+.Sign-in .Pop-up .Frame {
+  width: 452px;
+  height: 28px;
+  opacity: 1;
+  text-align: center;
+}
+.Sign-in .Pop-up .Frame span {
+  font-family: Satoshi;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 2rem;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #0d0d0d;
+}
+.auto {
+  width: 452px;
+  height: 296px;
+  opacity: 1;
+  margin-top: 24px;
+}
+.auto .MENU {
+  width: 452px;
+  height: 80px;
+}
+.auto .MENU .text1 {
+  width: 452px;
+  height: 24px;
+  opacity: 1;
+}
+.auto .MENU .text1 span {
+  font-family: Centra No2 TRIAL;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 1.6rem;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #0d0d0d;
+}
+.auto .MENU .Input {
+  width: 452px;
+  height: 52px;
+  border-radius: 8px;
+  border-width: 1px;
+  opacity: 1;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 10px;
+  background: #f5fbfb;
+  margin-top: 4px;
+}
+.auto .MENU .Input .Ex {
+  width: 35px;
+  height: 20px;
+}
+.auto .MENU .Input .Ex span {
+  font-family: Centra No2 TRIAL;
+  font-weight: 400;
+  font-style: Book;
+  font-size: 1.6rem;
+  line-height: 20px;
+  letter-spacing: 0%;
+  color: #aba8a1;
+}
+.Button {
+  width: 452px;
+  height: 56px;
+  border-radius: 1000px;
+  opacity: 1;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  padding: 16px;
+  padding-left: 209.5px;
+  background: #009e99;
+  margin-top: 24px;
+}
+.Sign {
+  width: 33px;
+  height: 24px;
+  opacity: 1;
+}
+.Sign span {
+  font-family: Centra No2 TRIAL;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 1.6rem;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #ffffff;
+}
+.Account {
+  width: 115px;
+  height: 16px;
+  opacity: 1;
+  margin-top: 24px;
+  margin-left: 168.5px;
+  margin-right: 168.5px;
+}
+.Account span {
+  font-family: Satoshi;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 1.2rem;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-thickness: 0%;
+  color: #000000;
+  cursor: pointer;
+}
+.Pop-up {
+  position: absolute;
+  top: 112px;
+  left: 470px;
+  z-index: 1;
+}
+.Input-Wallet:hover {
+  border: 1px solid #009e99;
+}
+.Register .Pop-up .Frame {
+  width: 452px;
+  height: 28px;
+  opacity: 1;
+  text-align: center;
+}
+.Input .Ex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Input .Ex img {
+  width: 20px;
+  height: 18px;
+  margin-left: 416px;
+  margin-top: 1px;
+  cursor: pointer;
+}
+.Register .Pop-up .Frame span {
+  font-family: Satoshi;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 2rem;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #0d0d0d;
+}
+.Popup-Register {
+  position: absolute;
+  width: 500px;
+  height: 492px;
+  border-radius: 16px;
+  border-width: 1px;
+  opacity: 1;
+  top: 64px;
+  left: 470px;
+}
+.Account-Register {
+  width: 161px;
+  height: 16px;
+  opacity: 1;
+}
+
+.modal-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  cursor: pointer;
+}
+
+.Pop-up {
+  z-index: 1000;
+}

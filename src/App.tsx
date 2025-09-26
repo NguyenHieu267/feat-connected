@@ -1,8 +1,28 @@
+import ConnectWallet from './components/ConnectWallet';
+
 const App = () => {
   return (
-    <main>
-      <h1 className="font-bold text-center my-20">AC Tools</h1>
-    </main>
+    <div className="Connect-Wallet">
+      {/* Tag V1 */}
+      <div className="Tag1">
+        <span>Connect V1</span>
+      </div>
+      
+      {/* Top Section */}
+      <div className="Top">
+        <ConnectWallet />
+      </div>
+
+      {/* Tag V2 */}
+      <div className="Tag2">
+        <span>Connect V2</span>
+      </div>
+      
+      {/* Bottom Section */}
+      <div className="Connect-bottom">
+        <ConnectWallet />
+      </div>
+    </div>
   );
 };
 
